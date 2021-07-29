@@ -3,11 +3,8 @@
 This module allows faster access to Tesseract-OCR from Python scripts.
 
 ## Quick start
-This repo has been altered from hyperrixel's pytessy: https://github.com/hyperrixel/pytessy
-It adds two quick 'hacks' to enable more functionality.
-
-* Allows pytessy to be used within a Jupyter notebook
-* Allows using pytessy on Linux
+This repo has been altered from tbattz's fork (https://github.com/tbattz/pytessy) from hyperrixel's pytessy: https://github.com/hyperrixel/pytessy
+It use a docker container with Linux and a uvicorn API. 
 
 Note that you may need to import pytessy before/after importing numpy, as there seems to be something conflicting when importing in a certain order.
 
